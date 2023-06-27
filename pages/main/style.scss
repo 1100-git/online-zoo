@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+$orange: #FE9013;
+$yellow: #FFEE2E;
+$black: #000000;
+$white: #ffffff;
+
+.button{
+    height: 54px;
+    border-radius: 25px;
+    background-color: $orange;
+    border: $orange;
+    &:hover{
+        background-color: $black;
+        transition: all 1s ease-in-out;
+    }
+}
+.absolute{
+    position:absolute;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 446px);
+}
+header {
+    max-width: 100%;
+    min-width: 1116px;
+    height: 811px;
+    font-family: 'Roboto', sans-serif;
+    background: url(/online-zoo/assets/images/giant_panda.jpg);
+    background-repeat: no-repeat;
+    margin: auto;
+}
+nav{
+    height: 81px;
+    background: $black;
+    width: 100%;
+    position: relative;
+}
+.nav__body{
+    width: 65%;
+    justify-content: space-between;
+    color: $white;
+    font-weight: 500;
+    font-size: 1rem;
+    margin: auto;
+    height: 80px;
+    background-color: $black;
+    a{
+        color: $white;
+        text-decoration: none;
+        display: inline-block;
+        &:hover{
+            color: $orange;
+            transition: all 0.1s ease-in-out;
+        }
+    }
+}
+.design{
+    margin-left: 35%;
+}
+.pet__logo{
+    width: 82px;
+    height: 51px;
+    border: 1px solid $white;
+    img{
+        position: relative;
+        top: -25px;
+        left: 11px;
+    }
+    h1{
+        font-size: 19px;
+        line-height: 23px;
+        vertical-align: top;
+        font-weight: 400;
+        text-align: center;
+    }
+    &:hover{
+        color: $orange;
+        border: 1px solid $orange;
+        transition: all 1s ease-in-out;
+        cursor: pointer;
+    }
+}
+.text__head{
+    background-color: $orange;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    flex-direction: column;
+    align-items: center;
+    font-size: 120px;
+    font-weight: 800;
+    line-height: 3%;
+    color: $white;
+    margin-left: 50%;
+    margin-top: 12px;
+    p{
+        margin-left: 40%;
+        margin-top: 18%;
+    }
+}
+.f{
+    color: $yellow;
+}
+.head__btn{
+    font-size: 16px;
+    color: $white;
+    margin: 0 auto;
+    margin-top: 71px;
+    margin-left: 60%;
+    margin-bottom: 100px;
+    padding: 0 5%;
+}
+.description{
+    z-index: 1;
+    margin-top: 140px;
+    justify-content:center;
+}
+.description__txt{
+    width: 470px;
+    margin-left: 87px;
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    h2 {
+        font-size: 48px;
+        font-weight: 200;
+        line-height: 60px;
+    }
+    h3{
+        font-size: 24px;
+        margin-top: 54px;
+        margin-bottom: 14px;
+        font-weight: 200;
+        line-height: 30px;
+    }
+    p{
+        margin-top: 20px;
+        line-height: 22px;
+    }
+}
+.map{
+    position: relative;
+}
+.flower1{
+    background-image: url(/1100-git-JSFE2022Q3/online-zoo/assets/images/flower_foto1.png);
+    background-repeat: no-repeat;
+    z-index: 2;
+    width: 204px;
+    height: 605px;
+    right:0;
+    top:-130px;
+}
+.card__container {
+    margin: 0 auto;
+    width: 63%;
+    font-family: roboto;
+}
+.card__slide {
+    width: 366px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    img {
+        margin-bottom: 4px;
+        border-radius: 5px 5px 0 0;
+    }
+}
+.card_name {
+    display: flex;
+    padding: 0 10px;
+    flex-direction:row;
+    justify-content:space-between;
+    img{
+        margin-top: 5px;
+        height: 32px;
+    }
+    a{
+        text-decoration: none;
+        color:$black;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 10px;
+    }
+}
+.animal__card {
+    margin-top: 180px;
+}
+.border {
+    width: 366px;
+    height: 426px;
+    background-clip: padding-box;
+    border: 1px solid $orange;
+    border-radius: 5px;
+    }
+.left {
+    margin-left: 17%;
+    margin-top: 21%;
+}
