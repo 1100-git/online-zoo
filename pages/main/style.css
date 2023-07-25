@@ -11,7 +11,7 @@
   border: #FE9013;
 }
 .button:hover {
-  background-color: #000000;
+  background-color: #c46801;
   transition: all 1s ease-in-out;
 }
 
@@ -122,10 +122,46 @@ nav {
   font-size: 16px;
   color: #ffffff;
   margin: 0 auto;
-  margin-top: 71px;
-  margin-left: 60%;
+  margin-top: 70px;
   margin-bottom: 100px;
+  text-transform: uppercase;
+  margin-left: 63%;
   padding: 0 5%;
+}
+
+.slider__btn {
+  font-size: 16px;
+  color: #ffffff;
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 100px;
+  text-transform: uppercase;
+  padding: 0 2%;
+}
+
+.slider__nav_l {
+  font-size: 16px;
+  color: #ffffff;
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 100px;
+  text-transform: uppercase;
+  margin-top: 22%;
+  margin-left: -50px;
+  padding: 1%;
+  writing-mode: sideways-lr;
+}
+
+.slider__nav_r {
+  font-size: 16px;
+  color: #ffffff;
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 100px;
+  text-transform: uppercase;
+  margin-top: 22%;
+  margin-left: 63%;
+  padding: 1%;
 }
 
 .description {

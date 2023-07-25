@@ -8,6 +8,14 @@ $orange: #FE9013;
 $yellow: #FFEE2E;
 $black: #000000;
 $white: #ffffff;
+@mixin button () {
+    font-size: 16px;
+    color: $white;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    text-transform: uppercase;
+}
 
 .button{
     height: 54px;
@@ -15,7 +23,7 @@ $white: #ffffff;
     background-color: $orange;
     border: $orange;
     &:hover{
-        background-color: $black;
+        background-color: darken($orange, 15%);
         transition: all 1s ease-in-out;
     }
 }
@@ -113,14 +121,29 @@ nav{
     color: $yellow;
 }
 .head__btn{
-    font-size: 16px;
-    color: $white;
-    margin: 0 auto;
-    margin-top: 71px;
-    margin-left: 60%;
-    margin-bottom: 100px;
+    @include button();
+    margin-left: 63%;
     padding: 0 5%;
 }
+
+.slider__btn {
+    @include button();
+    padding: 0 2%;
+}
+.slider__nav_l {
+    @include button();
+    margin-top: 22%;
+    margin-left: -50px;
+    padding: 1%;
+    writing-mode:sideways-lr;
+}
+.slider__nav_r {
+    @include button();
+    margin-top: 22%;
+    margin-left: 63%;
+    padding: 1%;
+}
+
 .description{
     z-index: 1;
     margin-top: 140px;
