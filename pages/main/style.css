@@ -200,7 +200,27 @@ nav {
 }
 
 .flower1 {
-  background-image: url(/1100-git-JSFE2022Q3/online-zoo/assets/images/flower_foto1.png);
+  background-image: url(/online-zoo/assets/images/flower_foto1.png);
+  background-repeat: no-repeat;
+  z-index: 2;
+  width: 204px;
+  height: 605px;
+  right: 0;
+  top: -130px;
+}
+
+.flower2 {
+  background-image: url(/online-zoo/assets/images/palm_foto.png);
+  background-repeat: no-repeat;
+  z-index: 2;
+  width: 204px;
+  height: 605px;
+  left: 0;
+  top: 100%;
+}
+
+.flower3 {
+  background-image: url(/online-zoo/assets/images/strelitzia1.png);
   background-repeat: no-repeat;
   z-index: 2;
   width: 204px;
@@ -257,4 +277,40 @@ nav {
 .left {
   margin-left: 17%;
   margin-top: 21%;
+}
+
+.donate {
+  background-color: #FBCCB3;
+  width: 100%;
+  padding-top: 33px;
+}
+
+.zoo__donate {
+  background-color: #FDE6DB;
+  margin: 0 18%;
+  border-radius: 20px;
+  padding-top: 41px;
+}
+.zoo__donate h4 {
+  font-weight: 100;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-family: roboto;
+  font-size: 50px;
+  color: #FE9013;
+}
+.zoo__donate p {
+  font-size: 24px;
+  font-family: roboto;
+  padding-left: 99px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.zoo__donate span {
+  font-size: 15px;
+  font-family: roboto;
+  padding-left: 99px;
+  font-weight: 400;
+  margin-bottom: 30px;
 }/*# sourceMappingURL=style.css.map */
